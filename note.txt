@@ -12,3 +12,28 @@ rm -f คือลบไฟล์เลย
 After you use the command git commit -m 'Initial Commit' in Page 18, if you use the command 'cat .\.git\COMMIT_EDITMSG', what will be shown on the screen?
 
 Initial Commit
+
+
+git config --global user.email "6833150921@student.chula.ac.th"
+git config --global user.name : "New"
+
+git log
+git log --online
+
+
+git checkout [id]
+○ Have a look at a version
+
+git checkout master
+○ Go back to master branch
+
+git revert [id]
+○ Go back to [id] version and add another step to the log.
+
+git reset [id]
+○ Undo reset
+■ git add .
+■ git commit -m “your comment”
+
+git reset [id] –hard
+○ Cannot undo this reset
