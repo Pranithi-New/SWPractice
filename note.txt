@@ -1,0 +1,9 @@
+git init
+git add
+git rm --cached index.html
+git commit -m "Your comment here"
+
+
+(use --cached to keep the file, or -f to force removal)
+
+rm -f คือลบไฟล์เลย
