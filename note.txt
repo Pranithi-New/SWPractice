@@ -37,3 +37,12 @@ git reset [id]
 
 git reset [id] –hard
 ○ Cannot undo this reset
+
+
+git branch -m ..
+//rename branch name in branch we are
+
+git branch -m master main
+//rename branch master to branch main
+
+//m stand for move
