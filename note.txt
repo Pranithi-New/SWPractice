@@ -46,3 +46,6 @@ git branch -m master main
 //rename branch master to branch main
 
 //m stand for move
+
+git branch --set-upstream-to=origin/main main
+//for -u 
